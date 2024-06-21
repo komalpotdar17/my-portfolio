@@ -1,0 +1,30 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- profile2.webp you can remove | Photo <a href="https://unsplash.com/es/@charlesdeluvio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">charlesdeluvio</a> en <a href="https://unsplash.com/es/fotos/hombre-con-gorro-negro-kVg2DQTAK7c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   -->
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Personal Card Portfolio Astro" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
+	<Card
+	  name="Komal Potdar"
+	  position="Full Stack Developer"
+	  aboutMe={`I am a passionate full-stack developer with a keen interest in both frontend and backend technologies. My enthusiasm for continuous learning and contributing to the tech community drives me forward. I am proficient in frameworks like React.js, Next.js, and Node.js, and skilled in databases such as MySQL and MongoDB. Each day, I expand my skill set by developing new projects and embracing emerging technologies. Let's come together and collaborate to create innovative solutions and make a meaningful impact in the tech world.`}
+	  linkedin="https://www.linkedin.com/in/komalpotdar17"
+	  github="https://github.com/komalpotdar17"
+	  cvLink="/files/resume-cv.pdf"
+	  profileImage="/images/image.jpg"
+	/>
+</BaseLayout>
+
+<!--
+	"Hi there!, I'm Brian. I hope this small template helps you gain visibility while you build great projects. Thank you for using it. I wish you success in everything you set out to do; you will surely achieve great things.
+
+	Here is my GitHub {https://github.com/alcarazbrian}. You can help me by following me, giving a Star to the template, and sharing it so others can see and use it.
+
+	Have a great day!"
+ -->
